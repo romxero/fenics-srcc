@@ -14,7 +14,9 @@ Author "Randall Cab White - rcwhite@stanford.edu"
 
 
 apt-get -ym update
-apt-get -ym install fenics
+apt-get -ym install fenics python-pip python3-pip libatlas-base-dev libatlas3-base libopenblas-base libopenblas-dev libhdf5-dev
+
+pip install pandas numpy matplotlib scipy
 
 #%runscript
 
